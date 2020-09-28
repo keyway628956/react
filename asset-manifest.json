@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/my_react/static/css/main.6a1bee49.chunk.css",
-    "main.js": "/my_react/static/js/main.5e294625.chunk.js",
-    "main.js.map": "/my_react/static/js/main.5e294625.chunk.js.map",
+    "main.css": "/my_react/static/css/main.89e3c2e7.chunk.css",
+    "main.js": "/my_react/static/js/main.81e38975.chunk.js",
+    "main.js.map": "/my_react/static/js/main.81e38975.chunk.js.map",
     "runtime-main.js": "/my_react/static/js/runtime-main.7f76d837.js",
     "runtime-main.js.map": "/my_react/static/js/runtime-main.7f76d837.js.map",
     "static/css/2.03369354.chunk.css": "/my_react/static/css/2.03369354.chunk.css",
-    "static/js/2.a836f064.chunk.js": "/my_react/static/js/2.a836f064.chunk.js",
-    "static/js/2.a836f064.chunk.js.map": "/my_react/static/js/2.a836f064.chunk.js.map",
+    "static/js/2.341db7b2.chunk.js": "/my_react/static/js/2.341db7b2.chunk.js",
+    "static/js/2.341db7b2.chunk.js.map": "/my_react/static/js/2.341db7b2.chunk.js.map",
     "index.html": "/my_react/index.html",
-    "precache-manifest.97c06ffc6cdd804a68d25088a19b85bc.js": "/my_react/precache-manifest.97c06ffc6cdd804a68d25088a19b85bc.js",
+    "precache-manifest.f47acfc19e083dc6f010fc196816ccb3.js": "/my_react/precache-manifest.f47acfc19e083dc6f010fc196816ccb3.js",
     "service-worker.js": "/my_react/service-worker.js",
     "static/css/2.03369354.chunk.css.map": "/my_react/static/css/2.03369354.chunk.css.map",
-    "static/css/main.6a1bee49.chunk.css.map": "/my_react/static/css/main.6a1bee49.chunk.css.map",
-    "static/js/2.a836f064.chunk.js.LICENSE.txt": "/my_react/static/js/2.a836f064.chunk.js.LICENSE.txt",
+    "static/css/main.89e3c2e7.chunk.css.map": "/my_react/static/css/main.89e3c2e7.chunk.css.map",
+    "static/js/2.341db7b2.chunk.js.LICENSE.txt": "/my_react/static/js/2.341db7b2.chunk.js.LICENSE.txt",
     "static/media/Excel.less": "/my_react/static/media/Excel.66c53b49.less",
     "static/media/test1.jpg": "/my_react/static/media/test1.c501070e.jpg",
     "static/media/test2.jpg": "/my_react/static/media/test2.0ff19173.jpg",
@@ -22,8 +22,8 @@
   "entrypoints": [
     "static/js/runtime-main.7f76d837.js",
     "static/css/2.03369354.chunk.css",
-    "static/js/2.a836f064.chunk.js",
-    "static/css/main.6a1bee49.chunk.css",
-    "static/js/main.5e294625.chunk.js"
+    "static/js/2.341db7b2.chunk.js",
+    "static/css/main.89e3c2e7.chunk.css",
+    "static/js/main.81e38975.chunk.js"
   ]
 }

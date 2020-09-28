@@ -28,7 +28,7 @@ function App() {
       <TopMenu />
       <ApolloProvider client={client}>
 
-        <BrowserRouter>
+        <BrowserRouter basename={process.env.PUBLIC_URL}>
 
 
 

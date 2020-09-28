@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/my_react/static/css/main.6a1bee49.chunk.css",
+    "main.js": "/my_react/static/js/main.7e4f83fd.chunk.js",
+    "main.js.map": "/my_react/static/js/main.7e4f83fd.chunk.js.map",
+    "runtime-main.js": "/my_react/static/js/runtime-main.7f76d837.js",
+    "runtime-main.js.map": "/my_react/static/js/runtime-main.7f76d837.js.map",
+    "static/css/2.03369354.chunk.css": "/my_react/static/css/2.03369354.chunk.css",
+    "static/js/2.d3b3bf0b.chunk.js": "/my_react/static/js/2.d3b3bf0b.chunk.js",
+    "static/js/2.d3b3bf0b.chunk.js.map": "/my_react/static/js/2.d3b3bf0b.chunk.js.map",
+    "index.html": "/my_react/index.html",
+    "precache-manifest.6bec8217ae521e9f48c64a6b6529ea41.js": "/my_react/precache-manifest.6bec8217ae521e9f48c64a6b6529ea41.js",
+    "service-worker.js": "/my_react/service-worker.js",
+    "static/css/2.03369354.chunk.css.map": "/my_react/static/css/2.03369354.chunk.css.map",
+    "static/css/main.6a1bee49.chunk.css.map": "/my_react/static/css/main.6a1bee49.chunk.css.map",
+    "static/js/2.d3b3bf0b.chunk.js.LICENSE.txt": "/my_react/static/js/2.d3b3bf0b.chunk.js.LICENSE.txt",
+    "static/media/Excel.less": "/my_react/static/media/Excel.66c53b49.less",
+    "static/media/test1.jpg": "/my_react/static/media/test1.c501070e.jpg",
+    "static/media/test2.jpg": "/my_react/static/media/test2.0ff19173.jpg",
+    "static/media/test3.jpg": "/my_react/static/media/test3.33112a72.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7f76d837.js",
+    "static/css/2.03369354.chunk.css",
+    "static/js/2.d3b3bf0b.chunk.js",
+    "static/css/main.6a1bee49.chunk.css",
+    "static/js/main.7e4f83fd.chunk.js"
+  ]
+}

@@ -167,7 +167,7 @@ function OsmMap() {
                                 <option selected>請選擇地區</option>
                                 {
 
-                                    city != null ? cityJson.find((c) => c.CityName == city).AreaList.map((item) => (
+                                    city != null ? cityJson.find((c) => c.CityName === city).AreaList.map((item) => (
                                         <option value={item.AreaName}>{item.AreaName}</option>
                                     )) : ''
                                 }

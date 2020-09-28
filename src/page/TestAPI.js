@@ -84,8 +84,8 @@ const columns = [
 function TestAPI() {
 
     const [dataList, setDataList] = useState([]);
-    const [total, setTotal] = useState([]);
-    const [errorMessage, setErrorMessage] = useState([]);
+    //const [total, setTotal] = useState([]);
+    //const [errorMessage, setErrorMessage] = useState([]);
 
     // 相似於 componentDidMount 和 componentDidUpdate:
     useEffect(() => {

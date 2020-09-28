@@ -4,7 +4,6 @@ import React from 'react';
 import GraphQL from './page/GraphQL.js';
 import PostList from './page/PostList';
 import Home from './page/Home.js';
-import Excel from './page/Excel.js';
 import About from './page/About.js';
 import UploadForm from './page/UploadForm.js';
 import Page404 from './page/Page404';
@@ -19,7 +18,6 @@ import {
     BrowserRouter as Router,
     Switch,
     Route,
-    Link,
     useRouteMatch,
     useParams
 } from "react-router-dom";
@@ -33,13 +31,13 @@ import {
 function About() {
     return <h2>Users123</h2>;
 }
- */
+ 
 function Users() {
     return <h2>Users123</h2>;
 }
-
+*/
 function App() {
-    let match = useRouteMatch();
+    //let match = useRouteMatch();
 
     return (
         <Router>
@@ -80,6 +78,9 @@ function App() {
                 <Route path="/TestAPI">
                     <TestAPI />
                 </Route>
+                <Route path="/TestAPI/AgriProductsTransType">
+                    <TestAPI />
+                </Route>
 
                 <Route path="/">
                     <Home />
@@ -90,7 +91,7 @@ function App() {
     );
 }
 
-function TestAPIs() {
+/* function TestAPIs() {
     let match = useRouteMatch();
 
     return (
@@ -115,7 +116,7 @@ function TestAPIs() {
            The Topics page has its own <Switch> with more routes
             that build on the /topics URL path. You can think of the
             2nd <Route> here as an "index" page for all topics, or
-            the page that is shown when no topic is selected */}
+            the page that is shown when no topic is selected 
             <Switch>
                 <Route path={`${match.path}/AgriProductsTransType`}>
                     <TestAPI />
@@ -123,11 +124,11 @@ function TestAPIs() {
             </Switch>
         </div>
     );
-}
-
+} */
+/* 
 function Topic() {
     let { topicId } = useParams();
     return <h3>Requested topic ID: {topicId}</h3>;
-}
+} */
 
 export default App;

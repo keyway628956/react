@@ -9,18 +9,6 @@ import Carousel from './Carousel.js';
 
 
 
-const contentStyle = {
-    height: '160px',
-    color: '#fff',
-    lineHeight: '160px',
-    textAlign: 'center',
-    background: '#364d79',
-};
-
-function onChange(a, b, c) {
-    console.log(a, b, c);
-}
-
 
 function Home() {
     return (

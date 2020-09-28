@@ -91,24 +91,24 @@ function MydModalWithGrid(props) {
 
 
 function Customer() {
-    const [count, setCount] = useState(0);
+    //const [count, setCount] = useState(0);
     const [isQuery, setIsQuery] = useState(false);
     const [isAdd, setIsAdd] = useState(false);
-    const [isEdit, setIsEdit] = useState(false);
+    //const [isEdit, setIsEdit] = useState(false);
     const [modalShow, setModalShow] = useState(false);
     const [item, setItem] = useState({
         id: '', name: "", tel: "", phone: "", date: "", other: ""
     })
     //QUERY
-    const { data, loading, error, refetch } = useQuery(
+    const { data, loading, refetch } = useQuery(
         QUERY_CUSTOMER, {
         //pollInterval: 1000 // refetch the result every 0.5 second
     }
     );
 
     //ADD
-    let inputName;
-    let inputRef = useRef(null);
+    //let inputName;
+    //let inputRef = useRef(null);
     const [createcustomer] = useMutation(CREATE_CUSTOMER);
 
     const columns = [
@@ -165,15 +165,14 @@ function Customer() {
     });
 
     function onChange(evt) {
-        let text = evt.target.name;
         setItem(
             {
-                id: evt.target.name == "id" ? evt.target.value : item.id,
-                name: evt.target.name == "name" ? evt.target.value : item.name,
-                tel: evt.target.name == "tel" ? evt.target.value : item.tel,
-                phone: evt.target.name == "phone" ? evt.target.value : item.phone,
-                date: evt.target.name == "date" ? evt.target.value : item.date,
-                other: evt.target.name == "other" ? evt.target.value : item.other,
+                id: evt.target.name === "id" ? evt.target.value : item.id,
+                name: evt.target.name === "name" ? evt.target.value : item.name,
+                tel: evt.target.name === "tel" ? evt.target.value : item.tel,
+                phone: evt.target.name === "phone" ? evt.target.value : item.phone,
+                date: evt.target.name === "date" ? evt.target.value : item.date,
+                other: evt.target.name === "other" ? evt.target.value : item.other,
 
             }
         );

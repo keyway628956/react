@@ -1,5 +1,5 @@
 // excel.js 
-import React, { Component, useState } from 'react';
+import React, { useState } from 'react';
 import { Button, message, Table } from 'antd';
 
 
@@ -194,7 +194,7 @@ function UploadForm() {
 
     function ConvertArr(dataList) {
         let obj = {}
-        if (typeof (dataList) === 'array') {
+        if (dataList.isArray) {
             Object.assign(obj, dataList);
             console.log('obj', obj);
             return obj;

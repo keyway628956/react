@@ -36,8 +36,8 @@ function About() {
     <hr></hr>
     <p>1997/04/09 • Taiwan</p>
     <div class="buttons">
-      <a class="btn1 fill"href="https://issuu.com/2sin/docs/yusin_s_portfolio____"target="_blank">Portfolio</a>
-      <a class="btn2"href="https://www.behance.net/2sin"target="_blank">Behance</a>
+      <a class="btn1 fill"href="https://issuu.com/2sin/docs/yusin_s_portfolio____"target="_blank" rel="noopener noreferrer">Portfolio</a>
+      <a class="btn2"href="https://www.behance.net/2sin"target="_blank" rel="noopener noreferrer">Behance</a>
     </div>
     <div class="block">
       <h4>skills</h4>

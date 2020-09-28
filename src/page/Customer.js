@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from 'react';
+import React, { useState, useEffect } from 'react';
 //import Layout from "../layout/Layout";
 
 import { useQuery, useMutation } from 'react-apollo';
@@ -94,7 +94,7 @@ function Customer() {
     //const [count, setCount] = useState(0);
     const [isQuery, setIsQuery] = useState(false);
     const [isAdd, setIsAdd] = useState(false);
-    //const [isEdit, setIsEdit] = useState(false);
+    const [isEdit, setIsEdit] = useState(false);
     const [modalShow, setModalShow] = useState(false);
     const [item, setItem] = useState({
         id: '', name: "", tel: "", phone: "", date: "", other: ""
@@ -176,7 +176,7 @@ function Customer() {
 
             }
         );
-        console.log("item", item);
+        console.log("item", item, 'isEdit', isEdit);
 
         console.log("new value", evt.target.value, "event", evt.target.name);
 

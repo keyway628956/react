@@ -18,8 +18,6 @@ import {
     BrowserRouter as Router,
     Switch,
     Route,
-    useRouteMatch,
-    useParams
 } from "react-router-dom";
 
 

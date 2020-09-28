@@ -1,7 +1,7 @@
 {
   "name": "frontend",
   "version": "0.1.0",
-  "homepage": "https://keyway628956.github.io/my_react/",
+  "homepage": "https://keyway628956.github.io/react/",
   "private": true,
   "dependencies": {
     "@ant-design/icons": "^4.2.2",

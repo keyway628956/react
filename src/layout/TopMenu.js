@@ -19,15 +19,15 @@ function TopMenu() {
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="mr-auto">
-                    <Nav.Link href="/home">Home</Nav.Link>
-                    <Nav.Link href="/about">About</Nav.Link>
-                    <Nav.Link href="/Customer">顧客管理</Nav.Link>
-                    <Nav.Link href="/GraphQL">GraphQL</Nav.Link>
-                    <Nav.Link href="/UploadForm">UploadForm</Nav.Link>
-                    <Nav.Link href="/OsmMap">OsmMap</Nav.Link>
-                    <Nav.Link href="/TestAPI">TestAPI</Nav.Link>
+                    <Nav.Link href="/react/home">Home</Nav.Link>
+                    <Nav.Link href="/react/about">About</Nav.Link>
+                    <Nav.Link href="/react/Customer">顧客管理</Nav.Link>
+                    <Nav.Link href="/react/GraphQL">GraphQL</Nav.Link>
+                    <Nav.Link href="/react/UploadForm">UploadForm</Nav.Link>
+                    <Nav.Link href="/react/OsmMap">OsmMap</Nav.Link>
+                    <Nav.Link href="/react/TestAPI">TestAPI</Nav.Link>
                     <NavDropdown title="TestAPI" id="basic-nav-dropdown">
-                        <NavDropdown.Item href="/TestAPI/AgriProductsTransType">農產品交易行情</NavDropdown.Item>
+                        <NavDropdown.Item href="/react/TestAPI/AgriProductsTransType">農產品交易行情</NavDropdown.Item>
                         <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
                         <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
                         <NavDropdown.Divider />

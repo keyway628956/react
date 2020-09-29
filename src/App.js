@@ -25,11 +25,11 @@ const client = new ApolloClient({
 function App() {
   return (
     <div>
-      <TopMenu />
+
       <ApolloProvider client={client}>
 
-        <BrowserRouter basename={process.env.PUBLIC_URL}>
-
+        <BrowserRouter basename={"/react"}>
+          <TopMenu />
 
 
 

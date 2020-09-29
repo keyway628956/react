@@ -38,7 +38,7 @@ function App() {
     //let match = useRouteMatch();
 
     return (
-        <Router>
+        <Router basename="/react">
 
 
 
